@@ -21,6 +21,7 @@ void Core::createFiles(){
     system("touch doc/README.md && touch doc/AUTHORS && touch doc/VERSION");
     system("cp /home/lycaeum/Code/Cpp/CppResources/gpl-2.0.txt doc/LICENSE.txt");
     system("cp /home/lycaeum/Code/Cpp/CppResources/Makefile ./");
+    system("ln -s doc/README.md ./README.md");
 }
 
 void Core::gitInit(){

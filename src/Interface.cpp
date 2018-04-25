@@ -22,6 +22,7 @@ void Interface::cFilesMsg(){
 
 void Interface::gitMenu(){
     std::cout << "Would you like to initialize git?";
-    std::cout <<"1. init\n2. init and add files\n3.init, add files and initial commit";
+    std::cout <<"1. init\n2. init and add files\n3.init, add files and initial commit\n";
+    std::cout << "==>";
     std::cin >> this->_gitMenu;
 }
